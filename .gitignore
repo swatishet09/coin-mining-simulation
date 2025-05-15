@@ -1,0 +1,32 @@
+# Node dependencies (both backend and frontend)
+node_modules/
+
+# Environment variables
+.env
+
+# Hardhat build files
+/cache/
+/artifacts/
+
+# TypeChain generated files
+/typechain/
+/typechain-types/
+
+# Solidity coverage reports
+coverage/
+coverage.json
+
+# Hardhat Ignition deployments
+ignition/deployments/chain-31337
+
+# React build output (if you run build)
+/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional system files
+.DS_Store
+Thumbs.db
