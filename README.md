@@ -10,8 +10,14 @@ A simple blockchain mining simulation using Solidity (Hardhat) and React with Me
 
 ### Backend
 
-```bash
+```powershell
 cd coin-mining-simulation
 npm install
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
+
+## Frontend
+
+```poweshell
+cd coin-mining-ui
+npm start
