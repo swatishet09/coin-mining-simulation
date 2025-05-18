@@ -18,6 +18,5 @@ npx hardhat run scripts/deploy.js --network localhost
 
 ## Frontend
 
-```poweshell
 cd coin-mining-ui
 npm start
